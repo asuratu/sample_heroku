@@ -2,8 +2,6 @@
 
 $db_config = get_db_config();
 
-var_dump($db_config);die;
-
 return [
 
     'default' => $db_config['connection'],
