@@ -38,4 +38,8 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 @stop
+=======
+@stop
+>>>>>>> sign-up
