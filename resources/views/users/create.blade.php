@@ -40,3 +40,10 @@
     </div>
 @stop
 
+postgres://ausvtqpjauhtgb
+:
+f0cc1bd69214aa5c534d9da23f97ab34221c25b9f903a1a1bbfa4cd46c962115
+@
+ec2-54-235-80-210.compute-1.amazonaws.com:5432
+/
+d7ofqbmlf3lvn1
