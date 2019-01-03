@@ -28,22 +28,14 @@ class UsersController extends Controller
         ]);
 
         $user = User::create([
-<<<<<<< HEAD
             'name' => $request->name,
             'email' => $request->email,
             'password' => bcrypt($request->password),
-=======
-           'name' => $request->name,
-            'email' => $request->email,
-            'password' => bcrypt($request->password)
->>>>>>> sign-up
+
         ]);
 
         session()->flash('success', '欢迎，您将在这里开启一段新的旅程~');
         return redirect()->route('users.show', [$user]);
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> sign-up
 }
