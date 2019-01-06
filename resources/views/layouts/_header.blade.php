@@ -1,4 +1,4 @@
-]<header class="navbar navbar-fixed-top navbar-inverse">
+<header class="navbar navbar-fixed-top navbar-inverse">
     <div class="container">
         <div class="col-md-offset-1 col-md-10">
             <a href="/" id="logo">Sample App</a>
@@ -12,7 +12,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a href="{{ route('users.show', Auth::user()->id) }}">个人中心</a></li>
-                                <li><a href="#">编辑资料</a></li>
+                                <li><a href="{{ route('users.edit', Auth::user()->id) }}">编辑资料</a></li>
                                 <li class="divider"></li>
                                 <li>
                                     <a id="logout" href="#">
